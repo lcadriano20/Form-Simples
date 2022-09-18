@@ -1,0 +1,80 @@
+main {
+    margin-top: 16px;
+    width: 100%;
+    background-color: white;
+}
+section {
+    margin-top: 10px;
+    margin: 0 auto;
+    height: 520px;
+    width: 100%;
+    max-width: 650px;
+    background-color: rgba(0, 102, 159, 1)
+    ;
+    border-radius: 49.09px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+section>p {
+    text-align: center;
+}
+#container-pai {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+input[type=text] {
+    width: 100%;
+    height: 30px;
+    border-radius: 15.34px
+    ;
+}
+input[type=date] {
+    width: 100%;
+    height: 30px;
+    border-radius: 15.34px
+    ;
+}
+input[type=file] {
+    width: 100%;
+}
+#poderes-personagem {
+    color: white;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    border-radius: 15.34px
+    ;
+}
+textarea {
+    width:250px;
+    height: 250px;
+
+}
+
+#poderes {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#button {
+    width: 200px;
+    height: 35px;
+    background-color: rgba(28, 209, 176, 1);
+    border-radius: 23.01px
+    ;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 31px;
+    
+}

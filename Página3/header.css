@@ -1,0 +1,35 @@
+.div1 {
+    background-color: rgba(28, 209, 176, 1);
+    width:100%;
+    
+}
+.div1>p {
+    margin-left: 15px;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 102, 159, 1);
+    height: 81px;
+    width: 100%;
+}
+.div2 {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 29, 45, 1);
+}
+nav {
+    display: flex;
+    float: right;
+    width: 290px;
+}
+ul {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+li {
+    color: white;
+    list-style-type: none;
+}

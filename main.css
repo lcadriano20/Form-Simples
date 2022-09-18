@@ -1,0 +1,34 @@
+div {
+    position: relative;
+    height: 100vh;
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h2 {
+    margin-bottom: 50px;
+    font-size: 72px;
+}
+button {
+    width: 614.25px;
+    height: 53.79px;
+    background-color: rgba(28, 209, 176, 1)
+    ;
+    border-radius: 23px;
+    font-weight: bold;
+    border: none;
+    
+}
+a {
+    text-decoration: none;
+}
+input::placeholder {
+    text-align: center;
+}
+
+input:focus {
+    border: 2px solid red;
+}

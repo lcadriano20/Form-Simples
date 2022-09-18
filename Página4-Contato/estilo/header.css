@@ -1,0 +1,20 @@
+.div-cabecalho {
+    display: flex;
+    align-items: center;
+    height: 23px;
+    width: 100%;
+    background-color: rgba(28, 209, 176, 1);
+}
+.div-cabecalho>p {
+    margin-left: 10px;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 102, 159, 1);
+    height: 80px;
+    width: 100%;
+}

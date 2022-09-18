@@ -1,0 +1,56 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:605px;
+    
+    
+}
+.secao-contato {
+    
+    height: 400px;
+    width: 350px;
+
+}
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+}
+input[type=text] {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type=email] {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type=reset] {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(136, 136, 136, 1)
+    ;
+}
+input[type=submit] {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(28, 209, 176, 1)
+    ;
+}
+input::placeholder {
+    text-align: center;
+}
+#botoes {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
